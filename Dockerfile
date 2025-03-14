@@ -1,2 +1,4 @@
-FROM nginx
-COPY . /usr/share/nginx/html
+FROM httpd
+LABEL name chandu
+COPY . /var/www/html/
+
