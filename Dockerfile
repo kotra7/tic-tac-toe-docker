@@ -1,4 +1,4 @@
 FROM httpd
 LABEL name chandu
-COPY . /var/lib/jenkins/
+COPY . /var/www/html/
 
