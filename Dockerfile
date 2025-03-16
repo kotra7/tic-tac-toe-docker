@@ -1,4 +1,3 @@
 FROM httpd
-LABEL name chandu
+LABEL name Chandu
 COPY . /var/www/html/
-
